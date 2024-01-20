@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Movies App" parallel="tests" thread-count="2">
+    <test name="LoginPageTest">
+        <classes>
+            <class name="LoginPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="HomePageTest">
+        <classes>
+            <class name="HomePageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="HeaderSectionTest">
+        <classes>
+            <class name="HeaderSectionTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="PopularPageTest">
+        <classes>
+            <class name="PopularPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="MovieDetailsPageTest">
+        <classes>
+            <class name="MovieDetailsPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="SearchPageTest">
+        <classes>
+            <class name="SearchPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="AccountsPageTest">
+        <classes>
+            <class name="AccountsPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
